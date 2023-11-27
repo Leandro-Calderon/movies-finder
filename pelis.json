@@ -1,0 +1,164 @@
+[
+  {
+    "title": "El Padrino",
+    "rating": 9.2,
+    "tags": ["drama", "mafia", "clásico", "crimen", "familia", "mejor película"]
+  },
+  {
+    "title": "Titanic",
+    "rating": 7.8,
+    "tags": ["romance", "drama", "épica", "historia de amor", "naufragio"]
+  },
+  {
+    "title": "Star Wars: Episodio IV - Una nueva esperanza",
+    "rating": 8.6,
+    "tags": ["ciencia ficción", "aventura", "espacio", "fuerza", "rebeldes"]
+  },
+  {
+    "title": "Jurassic Park",
+    "rating": 8.1,
+    "tags": ["aventura", "ciencia ficción", "dinosaurios", "parque", "acción"]
+  },
+  {
+    "title": "El Señor de los Anillos: La Comunidad del Anillo",
+    "rating": 8.8,
+    "tags": ["fantasía", "aventura", "épica", "anillo", "magia"]
+  },
+  {
+    "title": "Pulp Fiction",
+    "rating": 8.9,
+    "tags": ["crimen", "drama", "violencia", "tarantino", "culto"]
+  },
+  {
+    "title": "Los Vengadores",
+    "rating": 7.4,
+    "tags": ["superhéroes", "acción", "aventura", "marvel", "épica"]
+  },
+  {
+    "title": "Toy Story",
+    "rating": 8.3,
+    "tags": ["animación", "comedia", "amistad", "juguetes", "Pixar"]
+  },
+  {
+    "title": "El Rey León",
+    "rating": 8.5,
+    "tags": ["animación", "drama", "música", "aventura", "Disney"]
+  },
+  {
+    "title": "E.T. el Extraterrestre",
+    "rating": 7.8,
+    "tags": [
+      "ciencia ficción",
+      "amistad",
+      "niños",
+      "extraterrestres",
+      "aventura"
+    ]
+  },
+  {
+    "title": "Gladiador",
+    "rating": 8.5,
+    "tags": ["acción", "drama", "épica", "romanos", "venganza"]
+  },
+  {
+    "title": "El Exorcista",
+    "rating": 8.0,
+    "tags": ["terror", "posesión", "sobrenatural", "exorcismo", "clásico"]
+  },
+  {
+    "title": "Matrix",
+    "rating": 8.7,
+    "tags": ["ciencia ficción", "acción", "realidad virtual", "revolución"]
+  },
+  {
+    "title": "La La Land",
+    "rating": 8.0,
+    "tags": ["musical", "romance", "sueños", "Los Ángeles"]
+  },
+  {
+    "title": "Avatar",
+    "rating": 7.8,
+    "tags": ["ciencia ficción", "aventura", "pandora", "extraterrestres"]
+  },
+  {
+    "title": "Los Infiltrados",
+    "rating": 8.5,
+    "tags": ["crimen", "drama", "policías", "mafia", "corrupción"]
+  },
+  {
+    "title": "El Resplandor",
+    "rating": 8.4,
+    "tags": ["terror", "psicópata", "aislamiento", "hotel", "Stephen King"]
+  },
+  {
+    "title": "Los Miserables",
+    "rating": 7.6,
+    "tags": ["drama", "musical", "revolución", "victor hugo"]
+  },
+  {
+    "title": "Interestelar",
+    "rating": 8.6,
+    "tags": [
+      "ciencia ficción",
+      "aventura espacial",
+      "agujero de gusano",
+      "salvación de la humanidad"
+    ]
+  },
+  {
+    "title": "Shawshank Redemption",
+    "rating": 9.3,
+    "tags": ["drama", "crimen", "redención", "prisión", "Stephen King"]
+  },
+  {
+    "title": "Harry Potter y la Piedra Filosofal",
+    "rating": 7.6,
+    "tags": ["fantasía", "aventura", "magia", "escuela de magia"]
+  },
+  {
+    "title": "Forrest Gump",
+    "rating": 8.8,
+    "tags": ["drama", "comedia", "historia de vida", "correr"]
+  },
+  {
+    "title": "Los Cazafantasmas",
+    "rating": 7.8,
+    "tags": ["comedia", "ciencia ficción", "fantasmas", "humor"]
+  },
+  {
+    "title": "Pesadilla en Elm Street",
+    "rating": 7.5,
+    "tags": ["terror", "pesadillas", "asesino", "sobrenatural"]
+  },
+  {
+    "title": "Los Juegos del Hambre",
+    "rating": 7.2,
+    "tags": ["ciencia ficción", "aventura", "distopía", "rebelión"]
+  },
+  {
+    "title": "La Red Social",
+    "rating": 7.7,
+    "tags": ["drama", "biografía", "redes sociales", "Facebook"]
+  },
+  {
+    "title": "Rocky",
+    "rating": 8.1,
+    "tags": ["drama", "deportes", "boxeo", "superación", "Sylvester Stallone"]
+  },
+  {
+    "title": "El Silencio de los Corderos",
+    "rating": 8.6,
+    "tags": [
+      "crimen",
+      "terror",
+      "psicópata",
+      "investigación",
+      "Hannibal Lecter"
+    ]
+  },
+  {
+    "title": "Matrix Reloaded",
+    "rating": 7.2,
+    "tags": ["ciencia ficción", "acción", "realidad virtual", "revolución"]
+  }
+]
