@@ -1,16 +1,30 @@
-// con argvs capturar los input de consola 
+// con argvs capturar los input de consola
 // depurar el input con slice ?
 // const { argv } = require('node:process');
-const pelis = require('./pelis');
+const pelis = require("./pelis");
 
-const args = process.argv.slice(2);
+const input = process.argv.slice(2);
 
 // aca va el diccionario para bindear la data con la accion
 
-function main() {
-// console.log(params);
-
-
+const commands = {
+  // "--list": pelis.getAllMovies,
+  "--sort": pelis.sortMoviesBy,
+  "--search": pelis.searchMoviesBy,
+  "--tag": pelis.tagedMoviesBy,
 };
-main(console.log(pelis))
-console.log("eeeeeeeeeeee");
+
+function main(input) {
+  // console.log(params);
+  if (input != (undefined || null)) {
+    console.table(pelis.getAllMovies());
+  }
+}
+console.log(input);
+main();
+
+// console.log(input);
+// console.log(input[0]);
+// if (input == undefined || null) {
+//   return pelis
+// }

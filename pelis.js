@@ -1,18 +1,42 @@
 // traer el Json y parsearlo
-const fs = require("fs");
+const fs = require('fs')
+const data = fs.readFileSync(__dirname + '/pelis.json')
+const peliculas = JSON.parse(data)
 
-
-const data = fs.readFileSync(__dirname +'/pelis.json');
-const peliculas = JSON.parse(data);
 // hacer el caseSensitive
 
-// aca va cada una de las funciones de filtrado
+// ACA ABAJO VA CADA FUNCIÓN
+// -----------------------------------------------------------
 
+// mejorar la presentacion de getAllMovies con el Input "node index.js" es el trigger
+
+function getAllMovies () {
+  return peliculas
+}
+// -----------------------------------------------------------
+
+// oredenar alfabeticamente "--sort title"
+// ordenar de menor a mayor en el rating "--sort rating"
+// node index.js --sort {nombreDeLaPropiedad}
+
+function sortMoviesBy () {}
+
+// -----------------------------------------------------------
+// node index.js --search {searchCriteria}
+// El argumento --search debe devolver las películas que tienen el texto del argumento.
+// node index.js --search magic
+// Debería devolver las películas que tengan la palabra "magic" en su titulo.
+function searchMoviesBy () {}
+// -----------------------------------------------------------
+// Si le pasás el argumento --tag debe devolver las películas que tienen ese tag. "node index.js --tag {nombreDelTag}"
+// node index.js --tag thriller
+function tagedMoviesBy () {}
+// -----------------------------------------------------------
 
 // aca va el export de funciones
-function getAll ()  {
-  return peliculas;
-}
-module.exports={
-  getAll
+module.exports = {
+  getAllMovies,
+  sortMoviesBy,
+  searchMoviesBy,
+  tagedMoviesBy
 }
