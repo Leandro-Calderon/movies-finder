@@ -1,6 +1,7 @@
 // traer el Json y parsearlo
 const fs = require('fs')
-const data = fs.readFileSync(__dirname + '/pelis.json')
+const path = require('path')
+const data = fs.readFileSync(path.join(__dirname, '/pelis.json'))
 const peliculas = JSON.parse(data)
 
 // hacer el caseSensitive
@@ -19,7 +20,19 @@ function getAllMovies () {
 // ordenar de menor a mayor en el rating "--sort rating"
 // node index.js --sort {nombreDeLaPropiedad}
 
-function sortMoviesBy () {}
+function sortMoviesBy (props) {
+  const resultado = peliculas.sort((a, b) => {
+    const valorA = a[props]
+    const valorB = b[props]
+
+    if (typeof valorA === 'string') {
+      return valorA.localeCompare(valorB)
+    }
+
+    return valorB - valorA
+  })
+  return resultado
+}
 
 // -----------------------------------------------------------
 // node index.js --search {searchCriteria}
