@@ -1,4 +1,5 @@
 {
+  "main": "index.js",
   "name": "movies-finder",
   "scripts": {
     "test": "standard && node my-tests.js",
