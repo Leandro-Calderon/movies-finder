@@ -3,7 +3,7 @@
   "scripts": {
     "test": "standard && node my-tests.js",
     "prepare": "husky install",
-    "lint": "eslint --ext js,jsx --report-unused-disable-directives"
+    "lint": "eslint --ext js,jsx --report-unused-disable-directives --max-warnings"
   },
   "devDependencies": {
     "eslint": "^8.55.0",
