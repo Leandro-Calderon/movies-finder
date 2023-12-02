@@ -1,0 +1,14 @@
+{
+    "type": "node",
+    "request": "launch",
+    "name": "Launch Program",
+    "console": "integratedTerminal",
+    "internalConsoleOptions": "neverOpen",
+    "program": "index.js",
+    "outFiles": [
+        "${workspaceFolder}/out/**/*.js"
+    ],
+    "sourceMaps": true,
+    "protocol": "inspector",
+    "cwd": "${workspaceFolder}"
+}

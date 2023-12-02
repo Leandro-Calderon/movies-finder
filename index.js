@@ -1,9 +1,11 @@
 // con argvs capturar los input de consola
 // depurar el input con slice ?
 // const { argv } = require('node:process');
-const { getAllMovies } = require('./pelis')
+const process = require("node:process");
+
+const { getAllMovies } = require("./pelis");
 // const peliculas = require('./pelis.json')
-const argumento = process.argv.slice(2)
+const argumento = process.argv.slice(2);
 
 // const input = process.argv.slice(2)
 
@@ -16,11 +18,11 @@ const argumento = process.argv.slice(2)
 //   '--tag': pelis.tagedMoviesBy
 // }
 
-function main () {
+function main() {
   if (argumento.length === 0) {
-    const resultado = getAllMovies()
-    console.table(resultado)
+    const resultado = getAllMovies();
+    console.table(resultado);
   }
 }
-console.log(argumento)
-main()
+console.log(argumento);
+main();
