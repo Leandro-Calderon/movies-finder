@@ -10,17 +10,22 @@ function getAllMovies() {
 }
 
 function sortMoviesBy(props) {
-  const result = pelis.sort((a, b) => {
-    const valueA = a[props];
-    const valueB = b[props];
+  if (!pelis[0].hasOwnProperty(props)) {
+    console.error("no existe ese parametro de busqueda");
+    return pelis; // o manejar el error de otra manera
+  } else {
+    const result = pelis.sort((a, b) => {
+      const valueA = a[props];
+      const valueB = b[props];
 
-    if (typeof valueA === "string") {
-      return valueA.localeCompare(valueB);
-    }
+      if (typeof valueA === "string") {
+        return valueA.localeCompare(valueB);
+      }
 
-    return valueA - valueB;
-  });
-  return result;
+      return valueA - valueB;
+    });
+    return result;
+  }
 }
 
 function searchMoviesBy(word) {
@@ -32,7 +37,7 @@ function searchMoviesBy(word) {
   return result;
 }
 
-function tagedMoviesBy(tag) {
+function taggedMoviesBy(tag) {
   const result = pelis.filter((movie) =>
     movie.tags.some((t) => t.toLowerCase() === tag.toLowerCase()),
   );
@@ -43,5 +48,5 @@ module.exports = {
   getAllMovies,
   sortMoviesBy,
   searchMoviesBy,
-  tagedMoviesBy,
+  taggedMoviesBy,
 };
